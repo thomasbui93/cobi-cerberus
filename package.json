@@ -1,0 +1,37 @@
+{
+  "name": "cobi-cerberus",
+  "version": "0.0.1",
+  "description": "Cobi Cerberus - authentication central hub",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js -L",
+    "code-standard": "eslint src/**/**/*.js --fix",
+    "linter": "eslint src/**/**/*.js"
+  },
+  "keywords": [
+    "javascript",
+    "passwordless",
+    "authentication",
+    "API"
+  ],
+  "author": "Khoa Bui <buidangkhoa2602@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dayjs": "^1.7.6",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-async-await": "^0.0.0",
+    "eslint-plugin-node": "^7.0.1",
+    "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

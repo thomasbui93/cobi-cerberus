@@ -1,0 +1,25 @@
+{
+    "plugins": [
+      "node",
+      "async-await"
+    ],
+    "extends": [
+      "airbnb-base/legacy",
+      "plugin:node/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 10,
+      "sourceType": "module"
+    },
+    "rules": {
+      "node/exports-style": [
+        "error",
+        "module.exports"
+      ],
+      "semi": [2, "never"],
+      "no-underscore-dangle": "off"
+    },
+    "env": {
+      "es6": true
+    }
+}
