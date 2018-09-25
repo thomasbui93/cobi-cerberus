@@ -16,3 +16,4 @@ Cerberus is an internal application, a central hub for handling authentication r
 - [ ] Add caching for user credential search.
 - [ ] Add whitelist IP check for internal API call.
 - [ ] And admin ui for internal user management.
+- [ ] Dockerize this application for production deployment.
